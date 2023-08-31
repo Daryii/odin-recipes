@@ -1,33 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cursive;
 
-.alert-text {
-    color: green;
 }
 
-#title {
-    background-color: blueviolet;
+#links {
+    font-weight: bolder;
+    font-size: larger;
 }
 
-.read { 
-  
+.image {
+    background-image: url(/images/limonada.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.unread { 
-    
+h1 {
+    margin: 10px;
 }
 
-.read,.unread {
-    color: white;
-    background-color: black;
-}
-
-.subsection.header{
-    color: red;
-}
-
-.subsection#preview {
-    color: blue;
-}
-
-.ancestor .contents {
-    background-color: aqua;
+ul {
+    margin: 30px;
 }
