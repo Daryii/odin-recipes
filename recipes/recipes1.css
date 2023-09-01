@@ -2,24 +2,26 @@
     margin: 0;
     padding: 0;
     font-weight:bold ;
-    
+    color: white;
 }
 
 .text,h1 {
     font-size: 30px;
     font-family: cursive;
     
-}
-#img {
-    height: auto;
-    width: 450px;
-    align-items: center;
+    
 }
 
-div {
-    background-image: url(/images/lasagnaaa.jpg);
+
+.div1 {
+    background-image: url(/images/salami_pizza.jpg);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
    
+}
+
+button {
+    width: 10px;
+    height: 10px;
 }
